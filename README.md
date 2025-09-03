@@ -12,4 +12,13 @@ This project performs object detection on a video using a YOLOv8 model and summa
 - Count total number of objects per class.
 - Identify the frame with **maximum class diversity**.
 - Generate a **bar chart** visualizing object frequency.
-- Save **annotated frames** to output directory. 
+- Save **annotated frames** to output directory.
+
+## Features
+
+- Efficient frame sampling (every 5th frame)
+- JSON-based per-frame detection logs
+- Object frequency summary
+- Frame with maximum diversity detection
+- Annotated frames with bounding boxes
+- Bar chart visualization of detections
